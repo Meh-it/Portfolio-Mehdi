@@ -1,38 +1,31 @@
 # 🚀 Portfolio Projets - Mehdi CHARGUI
 > Étudiant en DSP Développement et exploitation de parcs informatiques (DevOps) au Cnam de Paris.
 
-Bienvenue sur mon portfolio GitHub. Ce dépôt rassemble mes projets académiques et travaux pratiques développés en langage C.
+Bienvenue sur mon portfolio GitHub. Ce dépôt rassemble mes projets académiques et travaux pratiques développés en langage C, mettant en avant la rigueur algorithmique, la gestion de structures de données et le développement d'applications interactives en ligne de commande.
 
 ---
 
 ## 🎬 Projet 1 : Application de Sondage et Système de Vote (Films)
 
-### 📌 Fiche Projet (Méthode STAR)
-- **Situation (S) :** Devoir pratique de programmation au Cnam.
-- **Tâche (T) :** Concevoir un programme en mode texte permettant de proposer un sondage sur une liste de 5 films, de recueillir les votes de l'utilisateur dans le terminal, puis d'afficher les résultats par quartier.
-- **Action (A) :** 
-  - Développement en **langage C** sous **VS Code** (compilateur **GCC**).
-  - Mise en place d'un menu textuel (`if/else`) et de variables de comptage pour enregistrer les choix.
-  - Utilisation d'une boucle `while` pour permettre de réitérer le vote tant que l'utilisateur ne quitte pas.
-  - Utilisation de boucles `for` pour comptabiliser les votes.
-- **Résultat (R) :** Un outil interactif simple et fonctionnel dans le terminal, qui traite et récapitule les votes de manière fluide.
+### 📌 Présentation du Projet
+Ce projet consiste en la conception et le développement d'un programme en mode console destiné à administrer un sondage portant sur une sélection de 5 films. L'objectif principal était de structurer un parcours utilisateur fluide permettant de collecter des votes de manière interactive et d'en restituer une synthèse claire.
+
+### 🛠️ Réalisation technique & Logique de développement
+- **Environnement & Outils :** Langage C, éditeur VS Code et compilateur GCC sous environnement terminal.
+- **Architecture du code :** 
+  - Mise en place d'un menu textuel conditionnel (`if/else`) pour guider l'utilisateur à travers les différentes options du programme.
+  - Utilisation de variables de comptage et de boucles itératives (`for`) pour comptabiliser avec précision les suffrages attribués à chaque film.
+  - Intégration d'une boucle de contrôle (`while`) garantissant la persistance de la session et permettant de réitérer l'opération tant que l'utilisateur ne choisit pas explicitement de quitter l'application.
+
+### 📈 Résultats et Apports
+- Mise en place d'un outil interactif stable et fonctionnel, capable d'exécuter un traitement de données textuelles en temps réel dans le terminal.
+- Renforcement des compétences en structuration de code procédural et en gestion des flux d'entrées/sorties en langage C.
 
 ---
-
-## ❌ Projet 2 : Le Jeu du Morpion (Tic-Tac-Toe)
-
-### 📌 Fiche Projet (Méthode STAR)
-- **Situation (S) :** Travail pratique de programmation en C au Cnam (Travail en groupe).
-- **Tâche (T) :** Développer un jeu de Morpion interactif à deux joueurs s'exécutant en ligne de commande dans le terminal.
-- **Action (A) :**
-  - Développement en **langage C** sous **VS Code** (compilateur **GCC**).
-  - Structuration de la grille 3x3 avec un tableau à deux dimensions.
-  - Gestion du tour par tour avec des boucles et vérification dynamique des conditions de victoire (alignements) ou d'égalité.
-- **Résultat (R) :** Programme exécutable 100 % fonctionnel en terminal avec gestion complète des règles du jeu et des erreurs de saisie.
 
 ---
 
 ## 🛠️ Outils & Technologies
 - **Langage :** C
-- **IDE & Compilateur :** VS Code, GCC
-- **Environnement :** Terminal / Ligne de commande Linux & Windows
+- **IDE & Compilateur :** Visual Studio Code, GCC
+- **Environnement :** Terminal / Ligne de commande (Linux & Windows)
