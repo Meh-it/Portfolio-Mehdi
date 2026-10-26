@@ -1,17 +1,17 @@
 # 📁 Portfolio Projets - Mehdi CHARGUI
 
 - **Nom et Prénom :** Mehdi CHARGUI
-- **Titre professionnel :** Technicien Support Informatique
+- **Formation / Filière :** DSP Développement et exploitation de parcs informatiques (DevOps) - Cnam Paris
 - **Localisation :** 93000 Bobigny
-- **Recherche de stage :** Stage du 01 mars au 23 avril 2027 (DSP Informatique - Cnam Paris)
-- **Lien LinkedIn :** https://www.linkedin.com/in/mehdi-chargui-it/
+- **Recherche de stage :** Stage du 01 mars au 23 avril 2027
+- **LinkedIn :** https://www.linkedin.com/in/mehdi-chargui-it/
 
 ---
 
 ## 🎬 Projet : Application de Sondage et Système de Vote (Films)
 
 ### 📌 Situation
-Projet académique réalisé en 2026 au Cnam (Paris) dans le cadre du DSP DevOps pour concevoir une application console interactive de vote pour une sélection de 5 films.
+Projet académique réalisé en 2026 au Cnam (Paris) dans le cadre de la formation DSP DevOps pour concevoir une application console interactive de vote pour une sélection de 5 films.
 
 ### 🎯 Tâche
 Développer un programme fiable en C permettant de collecter des votes, d'empêcher les erreurs de saisie utilisateur et d'afficher le décompte final des résultats.
@@ -27,7 +27,7 @@ Développer un programme fiable en C permettant de collecter des votes, d'empêc
 - Test réussi sans plantage lors des saisies incorrectes.
 
 ### 🔗 Preuve
-- Code source disponible dans ce dépôt : `sondage.c` (ou `main.c`)
+- Code source disponible dans ce dépôt : `sondage.c`
 
 ---
 
