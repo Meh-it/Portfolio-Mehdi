@@ -1,31 +1,37 @@
-# 🚀 Portfolio Projets - Mehdi CHARGUI
-> Étudiant en DSP Développement et exploitation de parcs informatiques (DevOps) au Cnam de Paris.
+# 📁 Portfolio Projets - Mehdi CHARGUI
 
-Bienvenue sur mon portfolio GitHub. Ce dépôt rassemble mes projets académiques et travaux pratiques développés en langage C, mettant en avant la rigueur algorithmique, la gestion de structures de données et le développement d'applications interactives en ligne de commande.
-
----
-
-## 🎬 Projet 1 : Application de Sondage et Système de Vote (Films)
-
-### 📌 Présentation du Projet
-Ce projet consiste en la conception et le développement d'un programme en mode console destiné à administrer un sondage portant sur une sélection de 5 films. L'objectif principal était de structurer un parcours utilisateur fluide permettant de collecter des votes de manière interactive et d'en restituer une synthèse claire.
-
-### 🛠️ Réalisation technique & Logique de développement
-- **Environnement & Outils :** Langage C, éditeur VS Code et compilateur GCC sous environnement terminal.
-- **Architecture du code :** 
-  - Mise en place d'un menu textuel conditionnel (`if/else`) pour guider l'utilisateur à travers les différentes options du programme.
-  - Utilisation de variables de comptage et de boucles itératives (`for`) pour comptabiliser avec précision les suffrages attribués à chaque film.
-  - Intégration d'une boucle de contrôle (`while`) garantissant la persistance de la session et permettant de réitérer l'opération tant que l'utilisateur ne choisit pas explicitement de quitter l'application.
-
-### 📈 Résultats et Apports
-- Mise en place d'un outil interactif stable et fonctionnel, capable d'exécuter un traitement de données textuelles en temps réel dans le terminal.
-- Renforcement des compétences en structuration de code procédural et en gestion des flux d'entrées/sorties en langage C.
+- **Nom et Prénom :** Mehdi CHARGUI
+- **Titre professionnel :** Technicien Support Informatique
+- **Localisation :** 93000 Bobigny
+- **Recherche de stage :** Stage du 01 mars au 23 avril 2027 (DSP Informatique - Cnam Paris)
+- **Lien LinkedIn :** https://www.linkedin.com/in/mehdi-chargui-it/
 
 ---
 
+## 🎬 Projet : Application de Sondage et Système de Vote (Films)
+
+### 📌 Situation
+Projet académique réalisé en 2026 au Cnam (Paris) dans le cadre du DSP DevOps pour concevoir une application console interactive de vote pour une sélection de 5 films.
+
+### 🎯 Tâche
+Développer un programme fiable en C permettant de collecter des votes, d'empêcher les erreurs de saisie utilisateur et d'afficher le décompte final des résultats.
+
+### ⚙️ Action
+- Structuration du programme en langage C sous VS Code avec compilation GCC.
+- Implémentation d'un menu textuel avec contrôle des conditions (`if/else`).
+- Automatisation du décompte des voix par des boucles itératives (`for`).
+- Maintien de l'application active avec une boucle de contrôle (`while`).
+
+### 📊 Résultat
+- Programme 100 % fonctionnel et exécutable directement dans le terminal.
+- Test réussi sans plantage lors des saisies incorrectes.
+
+### 🔗 Preuve
+- Code source disponible dans ce dépôt : `sondage.c` (ou `main.c`)
+
 ---
 
-## 🛠️ Outils & Technologies
-- **Langage :** C
-- **IDE & Compilateur :** Visual Studio Code, GCC
-- **Environnement :** Terminal / Ligne de commande (Linux & Windows)
+## 🛠️ Compétences & Outils
+- **Langages :** C, Bash, Python
+- **Environnements :** Linux, Windows, Terminal
+- **Outils :** VS Code, GCC, Git / GitHub
