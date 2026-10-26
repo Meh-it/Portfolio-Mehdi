@@ -3,7 +3,7 @@
 - **Nom et Prénom :** Mehdi CHARGUI
 - **Formation / Filière :** DSP Développement et exploitation de parcs informatiques (DevOps) - Cnam Paris
 - **Localisation :** 93000 Bobigny
-- **Recherche de stage :** Stage du 01 mars au 23 avril 2027
+- **Recherche de stage :** Stage du 01 mars au 23 avril 2027 (modulable)
 - **LinkedIn :** https://www.linkedin.com/in/mehdi-chargui-it/
 
 ---
