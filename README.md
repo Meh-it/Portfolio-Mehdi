@@ -7,6 +7,30 @@
 - **LinkedIn :** https://www.linkedin.com/in/mehdi-chargui-it/
 
 ---
+——-
+## ❌ Projet 2 : Jeu du Morpion en C 
+
+### 📌 Situation
+Devoir pratique académique au Cnam dans le cours d'Algorithmique et Programmation en C visant à développer un jeu de Morpion interactif à deux joueurs dans le terminal.
+
+### 🎯 Tâche
+Concevoir un jeu à deux joueurs sur une grille 3x3 avec choix du symbole ('X' ou 'O'), alternance des tours, validation stricte des coordonnées et détection des victoires ou matchs nuls, **sans utiliser de tableaux multidimensionnels**.
+
+### ⚙️ Action
+- **Modélisation de la grille :** Utilisation de 9 variables de type `char` (`case11` à `case33`) initialisées avec le caractère `'-'`.
+- **Entrées / Sorties terminal :** Utilisation des fonctions `printf()` pour l'affichage structuré de la grille et `scanf()` pour la lecture des coups.
+- **Logique et Structures Conditionnelles (`if / else` & Opérateurs logiques) :**
+  - Validation du symbole choisi par le joueur 1 ('X' ou 'O') et rejet de toute autre saisie.
+  - Contrôle de la validité du coup (vérification que les coordonnées sont entre 1 et 3 et que la case est libre `'-'`).
+  - Implémentation des tests de victoire sur les 8 alignements possibles (3 lignes, 3 colonnes, 2 diagonales).
+  - Gestion du cas de match nul lorsque les 9 cases sont occupées sans alignement gagnant.
+
+### 📊 Résultat
+- Prototype fonctionnel respectant l'ensemble des contraintes algorithmiques fixées par l'enseignant.
+- Validation des cas de test : refus des coups invalides et détection précise du vainqueur ou de l'égalité.
+
+### 🔗 Preuve
+- Code source : `morpion.c`
 
 ## 🎬 Projet : Application de Sondage et Système de Vote (Films)
 
@@ -36,26 +60,3 @@ Développer un programme fiable en C permettant de collecter des votes, d'empêc
 - **Environnements :** Linux, Windows, Terminal
 - **Outils :** VS Code, GCC, Git / GitHub
 ——-
-## ❌ Projet 2 : Jeu du Morpion en C 
-
-### 📌 Situation
-Devoir pratique académique au Cnam dans le cours d'Algorithmique et Programmation en C visant à développer un jeu de Morpion interactif à deux joueurs dans le terminal.
-
-### 🎯 Tâche
-Concevoir un jeu à deux joueurs sur une grille 3x3 avec choix du symbole ('X' ou 'O'), alternance des tours, validation stricte des coordonnées et détection des victoires ou matchs nuls, **sans utiliser de tableaux multidimensionnels**.
-
-### ⚙️ Action
-- **Modélisation de la grille :** Utilisation de 9 variables de type `char` (`case11` à `case33`) initialisées avec le caractère `'-'`.
-- **Entrées / Sorties terminal :** Utilisation des fonctions `printf()` pour l'affichage structuré de la grille et `scanf()` pour la lecture des coups.
-- **Logique et Structures Conditionnelles (`if / else` & Opérateurs logiques) :**
-  - Validation du symbole choisi par le joueur 1 ('X' ou 'O') et rejet de toute autre saisie.
-  - Contrôle de la validité du coup (vérification que les coordonnées sont entre 1 et 3 et que la case est libre `'-'`).
-  - Implémentation des tests de victoire sur les 8 alignements possibles (3 lignes, 3 colonnes, 2 diagonales).
-  - Gestion du cas de match nul lorsque les 9 cases sont occupées sans alignement gagnant.
-
-### 📊 Résultat
-- Prototype fonctionnel respectant l'ensemble des contraintes algorithmiques fixées par l'enseignant.
-- Validation des cas de test : refus des coups invalides et détection précise du vainqueur ou de l'égalité.
-
-### 🔗 Preuve
-- Code source : `morpion.c`
