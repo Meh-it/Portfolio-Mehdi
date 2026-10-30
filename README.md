@@ -36,7 +36,7 @@ Développer un programme fiable en C permettant de collecter des votes, d'empêc
 - **Environnements :** Linux, Windows, Terminal
 - **Outils :** VS Code, GCC, Git / GitHub
 ——-
-## ❌ Projet 2 : Jeu du Morpion en C (En cours de développement 🚧)
+## ❌ Projet 2 : Jeu du Morpion en C 
 
 ### 📌 Situation
 Devoir pratique académique au Cnam dans le cours d'Algorithmique et Programmation en C visant à développer un jeu de Morpion interactif à deux joueurs dans le terminal.
@@ -58,4 +58,4 @@ Concevoir un jeu à deux joueurs sur une grille 3x3 avec choix du symbole ('X' o
 - Validation des cas de test : refus des coups invalides et détection précise du vainqueur ou de l'égalité.
 
 ### 🔗 Preuve
-- Code source en cours de finalisation disponible sur le dépôt : `morpion.c`
+- Code source : `morpion.c`
