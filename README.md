@@ -14,8 +14,9 @@ HTML5, CSS3, Git / GitHub. Le site est hébergé avec GitHub Pages.
 - `style.css` : la mise en forme
 - `Chargui_Mehdi_CV.pdf` : mon CV
 ## Mes autres dépôts
-- [Chargui-Mehdi-Projets-C](https://github.com/Meh-it/Chargui-Mehdi-Projets-C) : mes projets en langage C réalisés au Cnam
+- [projets-c](https://github.com/Meh-it/projets-c) : mes projets en langage C réalisés au Cnam
 ## Contact
 - E-mail : mehdi.chargui07@gmail.com
 - CV (PDF) : https://meh-it.github.io/Portfolio-Mehdi/Chargui_Mehdi_CV.pdf
 - LinkedIn : https://www.linkedin.com/in/mehdi-chargui-it/
+ 
