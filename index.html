@@ -1,1 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehdi Chargui — Portfolio | Technicien Support & Systèmes</title>
+  <meta name="description" content="Portfolio de Mehdi Chargui, étudiant en DSP Développement et exploitation de parcs informatiques au Cnam de Paris. Recherche de stage Technicien support informatique (mars – avril 2027)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#accueil" class="logo">&lt;Mehdi<span>.IT</span> /&gt;</a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#contact" class="btn-nav">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <!-- Hero Section -->
+  <section id="accueil" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="badge-stage">
+          <span class="dot"></span> Recherche de stage : 1er mars – 23 avril 2027 (modulable)
+        </div>
+        <h1>Mehdi <span>CHARGUI</span></h1>
+        <h2>Technicien Support Informatique &amp; Administration Systèmes</h2>
+        <p class="hero-desc">
+          Étudiant en <strong>Diplôme de Spécialisation Professionnelle (DSP) Développement et exploitation de parcs informatiques</strong> au <strong>Cnam de Paris</strong>. Passionné par la maintenance de parcs, les environnements Windows/Linux et l'automatisation par le scripting.
+        </p>
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/Meh-it/Portfolio-Mehdi" target="_blank" rel="noopener">GitHub</a>
+          <span>•</span>
+          <a href="https://linkedin.com/in/mehdi-chargui-it" target="_blank" rel="noopener">LinkedIn</a>
+          <span>•</span>
+          <a href="mailto:mehdi.chargui07@gmail.com">mehdi.chargui07@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="terminal-card" aria-label="Présentation terminal">
+        <div class="terminal-header">
+          <span class="t-btn red"></span>
+          <span class="t-btn yellow"></span>
+          <span class="t-btn green"></span>
+          <span class="terminal-title">mehdi@cnam-paris:~</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="output">Mehdi Chargui — Futur Technicien Support IT</p>
+          <p><span class="prompt">$</span> cat formation.txt</p>
+          <p class="output">DSP Développement &amp; exploitation de parcs informatiques (Cnam Paris)</p>
+          <p><span class="prompt">$</span> ls ./competences/</p>
+          <p class="output">Windows_Server/  Linux_Admin/  Reseaux/  Python/  Bash/  C/  Git/</p>
+          <p><span class="prompt">$</span> ./check_disponibilite.sh</p>
+          <p class="output success">[OK] Stage 2 mois : 01/03/2027 au 23/04/2027 (Île-de-France)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="a-propos" class="section">
+    <div class="container">
+      <h2 class="section-title">À propos de moi</h2>
+      <div class="about-card">
+        <p>
+          Basé à <strong>Bobigny (93)</strong> et étudiant au <strong>Conservatoire National des Arts et Métiers (Cnam) de Paris</strong>, je me spécialise dans le déploiement, le maintien en condition opérationnelle et le support des parcs informatiques.
+        </p>
+        <p>
+          Rigueur, esprit d'analyse et sens du service guident ma pratique au quotidien : qu'il s'agisse de diagnostiquer une panne matérielle ou logicielle, de configurer un poste sous Windows ou Linux, ou d'automatiser des tâches répétitives en Python et Bash, j'aime apporter des solutions fiables et claires aux utilisateurs.
+        </p>
+        <div class="qualities-grid">
+          <div class="quality-item"><strong>Esprit d'analyse</strong><span>Diagnostic méthodique d'incidents</span></div>
+          <div class="quality-item"><strong>Pédagogie</strong><span>Assistance et vulgarisation technique</span></div>
+          <div class="quality-item"><strong>Rigueur</strong><span>Suivi des tickets et documentation</span></div>
+          <div class="quality-item"><strong>Travail d'équipe</strong><span>Collaboration agile et entraide</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences Techniques -->
+  <section id="competences" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Compétences Techniques</h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">🖥️</div>
+          <h3>Postes de travail</h3>
+          <p>Installation, configuration, déploiement et maintenance matérielle et logicielle de postes <strong>Windows</strong> et <strong>Linux</strong>.</p>
+          <div class="tags">
+            <span>Windows 10/11</span><span>Ubuntu / Debian</span><span>Diagnostic</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🔐</div>
+          <h3>Administration Systèmes &amp; Réseaux</h3>
+          <p>Gestion des comptes et droits d'accès utilisateurs, bases d'infrastructure réseau, configuration et sécurité.</p>
+          <div class="tags">
+            <span>Windows Server</span><span>Droits Linux</span><span>TCP/IP</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Scripting &amp; Automatisation</h3>
+          <p>Développement de scripts pour automatiser les tâches d'administration système et le traitement de flux de données.</p>
+          <div class="tags">
+            <span>Python</span><span>Bash / Shell</span><span>Langage C</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>Outils &amp; Environnement</h3>
+          <p>Versionnement de code, documentation technique, suivi d'interventions et bonnes pratiques d'exploitation.</p>
+          <div class="tags">
+            <span>Git / GitHub</span><span>VS Code</span><span>Ligne de commande</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets Académiques -->
+  <section id="projets" class="section">
+    <div class="container">
+      <h2 class="section-title">Projets Académiques &amp; Techniques</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Systèmes Linux</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Administration de systèmes Linux &amp; Shell</h3>
+          <p class="project-place">Université Sorbonne Paris Nord</p>
+          <ul>
+            <li>Navigation et gestion complète de l'arborescence en ligne de commande (Bash).</li>
+            <li>Administration des utilisateurs, groupes et permissions d'accès (chmod, chown).</li>
+            <li>Écriture et exécution de scripts shell pour automatiser la maintenance courante.</li>
+          </ul>
+          <div class="tags">
+            <span>Linux</span><span>Bash</span><span>Administration</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Automatisation</span>
+            <span class="project-year">2025</span>
+          </div>
+          <h3>Scripts d'automatisation et support (C &amp; Python)</h3>
+          <p class="project-place">Université Sorbonne Paris Nord</p>
+          <ul>
+            <li>Conception de programmes et scripts utilitaires pour faciliter les tâches d'administration système.</li>
+            <li>Structuration, lecture et manipulation automatisée de fichiers de configuration et de flux de données.</li>
+          </ul>
+          <div class="tags">
+            <span>Python</span><span>C</span><span>Fichiers de config</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Infrastructure &amp; Parc</span>
+            <span class="project-year">2026 – 2027</span>
+          </div>
+          <h3>Exploitation de parcs informatiques &amp; Cloud</h3>
+          <p class="project-place">Cnam de Paris</p>
+          <ul>
+            <li>Installation et maintenance de postes de travail en environnement réseau (Windows / Linux).</li>
+            <li>Initiation aux bases de données, à la sécurité des systèmes et aux environnements Cloud.</li>
+          </ul>
+          <div class="tags">
+            <span>Windows Server</span><span>Réseaux</span><span>Sécurité</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parcours & Expérience -->
+  <section id="parcours" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Formation &amp; Expérience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">Sept. 2026 – Aujourd'hui</div>
+          <div class="timeline-content">
+            <h3>Diplôme de Spécialisation Professionnelle (BAC+1)</h3>
+            <h4>Conservatoire National des Arts et Métiers (Cnam) – Paris</h4>
+            <p>Filière <strong>Développement et exploitation de parcs informatiques</strong> : administration réseaux Windows/Linux, maintenance de postes, sécurité &amp; Cloud, scripting Python/Bash, bases de données.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Sept. 2025 – Juin 2026</div>
+          <div class="timeline-content">
+            <h3>Licence Informatique – Parcours aménagé (L0)</h3>
+            <h4>Université Sorbonne Paris Nord – Villetaneuse (93)</h4>
+            <p>Initiation à la programmation Python, algorithmique, architecture des ordinateurs et systèmes d'exploitation Linux.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2021 (3 jours)</div>
+          <div class="timeline-content">
+            <h3>Stage d'observation – Chef Technicien Systèmes</h3>
+            <h4>Aéroport de Monastir – Tunisie</h4>
+            <p>Observation de la gestion d'infrastructures réseaux et systèmes critiques, maintenance du matériel informatique et support technique aux utilisateurs.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3>Baccalauréat Général</h3>
+            <h4>Spécialités Mathématiques et Physique-Chimie</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-box">
+        <h2>Un stage en support informatique à pourvoir ?</h2>
+        <p>
+          Je suis disponible pour un <strong>stage conventionné de 2 mois du 1er mars au 23 avril 2027 (modulable)</strong> en Île-de-France. N'hésitez pas à me contacter par e-mail ou téléphone !
+        </p>
+        <div class="contact-details">
+          <a href="mailto:mehdi.chargui07@gmail.com" class="contact-item">
+            <span>✉️</span> mehdi.chargui07@gmail.com
+          </a>
+          <a href="tel:+33768969933" class="contact-item">
+            <span>📱</span> 07 68 96 99 33
+          </a>
+          <a href="https://linkedin.com/in/mehdi-chargui-it" target="_blank" rel="noopener" class="contact-item">
+            <span>💼</span> linkedin.com/in/mehdi-chargui-it
+          </a>
+          <a href="https://github.com/Meh-it/Portfolio-Mehdi" target="_blank" rel="noopener" class="contact-item">
+            <span>💻</span> github.com/Meh-it/Portfolio-Mehdi
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026–2027 Mehdi CHARGUI — Bobigny (93) | Portfolio hébergé sur GitHub Pages</p>
+    </div>
+  </footer>
+</body>
+</html>
