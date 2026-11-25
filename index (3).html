@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehdi Chargui — Portfolio | Technicien Support &amp; Systèmes</title>
+  <meta name="description" content="Portfolio de Mehdi Chargui, étudiant en DSP Développement et exploitation de parcs informatiques au Cnam de Paris. Recherche de stage Technicien support informatique (1er mars – 23 avril 2027, modulable)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Boutons "Voir le code" (projets) */
+    .projects-subtitle { margin: 24px 0 16px; font-family: "JetBrains Mono", monospace; font-size: 1.05rem; }
+    .badge-encours { color: #f59e0b; font-weight: 600; }
+    .project-links { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn-code {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border: 1.5px solid currentColor;
+      border-radius: 6px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+    .btn-code:hover { transform: translateY(-2px); opacity: 0.8; }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#accueil" class="logo">&lt;Mehdi<span>.IT</span> /&gt;</a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#contact" class="btn-nav">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="accueil" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="badge-stage">
+          <span class="dot"></span> Recherche de stage : 1er mars – 23 avril 2027 (modulable)
+        </div>
+        <h1>Mehdi <span>CHARGUI</span></h1>
+        <h2>Technicien Support Informatique &amp; Administration Systèmes</h2>
+        <p class="hero-desc">
+          Étudiant en <strong>Diplôme de Spécialisation Professionnelle (DSP) Développement et exploitation de parcs informatiques</strong> au <strong>Conservatoire National des Arts et Métiers (Cnam) de Paris</strong>. Passionné par la maintenance de parcs, les environnements Windows/Linux, l'automatisation par le scripting et le développement web.
+        </p>
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/Meh-it/Portfolio-Mehdi" target="_blank" rel="noopener">GitHub</a>
+          <span>•</span>
+          <a href="https://linkedin.com/in/mehdi-chargui-it" target="_blank" rel="noopener">LinkedIn</a>
+          <span>•</span>
+          <a href="mailto:mehdi.chargui07@gmail.com">mehdi.chargui07@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="terminal-card" aria-label="Présentation terminal">
+        <div class="terminal-header">
+          <span class="t-btn red"></span>
+          <span class="t-btn yellow"></span>
+          <span class="t-btn green"></span>
+          <span class="terminal-title">mehdi@cnam-paris:~</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="output">Mehdi Chargui — Technicien Support IT &amp; Systèmes</p>
+          <p><span class="prompt">$</span> cat formation.txt</p>
+          <p class="output">DSP Développement &amp; exploitation de parcs informatiques (Cnam Paris)</p>
+          <p><span class="prompt">$</span> ls ./competences/</p>
+          <p class="output">Windows_Linux/  Reseaux_Secu/  Python_Bash_C/  HTML_CSS/  Git_Pages/</p>
+          <p><span class="prompt">$</span> ./check_disponibilite.sh</p>
+          <p class="output success">[OK] Stage 2 mois : 01/03/2027 au 23/04/2027 (modulable)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="a-propos" class="section">
+    <div class="container">
+      <h2 class="section-title">À propos de moi</h2>
+      <div class="about-card">
+        <p>
+          Basé à <strong>Bobigny (93)</strong> et étudiant en <strong>Diplôme de Spécialisation Professionnelle (DSP) Développement et exploitation de parcs informatiques</strong> au <strong>Conservatoire National des Arts et Métiers (Cnam) de Paris</strong>, je me spécialise dans le déploiement, le maintien en condition opérationnelle et le support des parcs informatiques.
+        </p>
+        <p>
+          Rigueur, esprit d'analyse et sens du service guident ma pratique au quotidien : diagnostic de pannes matérielles ou logicielles, configuration de postes sous Windows ou Linux, automatisation de tâches en Python et Bash, ou intégration web en HTML5 et CSS3 déployée sur GitHub Pages.
+        </p>
+        <div class="qualities-grid">
+          <div class="quality-item"><strong>Esprit d'analyse</strong><span>Diagnostic méthodique d'incidents</span></div>
+          <div class="quality-item"><strong>Pédagogie</strong><span>Assistance et vulgarisation technique</span></div>
+          <div class="quality-item"><strong>Rigueur</strong><span>Suivi des tickets et documentation</span></div>
+          <div class="quality-item"><strong>Travail d'équipe</strong><span>Collaboration agile et entraide</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences Techniques -->
+  <section id="competences" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Compétences Techniques</h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">🖥️</div>
+          <h3>Exploitation &amp; Postes de travail</h3>
+          <p>Installation, configuration, déploiement, reconditionnement et maintenance matérielle et logicielle de postes <strong>Windows</strong> et <strong>Linux</strong>.</p>
+          <div class="tags">
+            <span>Windows 10/11</span><span>Linux</span><span>Diagnostic &amp; Parc</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🔐</div>
+          <h3>Administration Systèmes, Réseaux &amp; Sécurité</h3>
+          <p>Gestion des utilisateurs, groupes et droits d'accès, bases d'infrastructure réseau, sécurité des systèmes, Cloud et bases de données.</p>
+          <div class="tags">
+            <span>Windows / Linux</span><span>Réseaux &amp; Sécurité</span><span>Cloud &amp; BDD</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Scripting &amp; Programmation</h3>
+          <p>Développement de scripts utilitaires pour automatiser les tâches d'administration, manipuler des fichiers et traiter des données.</p>
+          <div class="tags">
+            <span>Python</span><span>Bash / Shell</span><span>Langage C</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Développement Web (HTML / CSS) &amp; Outils</h3>
+          <p>Création de pages web responsives en <strong>HTML5</strong> et <strong>CSS3</strong>, versionnement avec <strong>Git / GitHub</strong>, <strong>VS Code</strong> et hébergement sur <strong>GitHub Pages</strong>.</p>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>Git / GitHub Pages</span><span>VS Code</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets Académiques & Techniques -->
+  <section id="projets" class="section">
+    <div class="container">
+      <h2 class="section-title">Projets Académiques &amp; Techniques</h2>
+      <h3 class="projects-subtitle">Projets en langage C</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Programmation C</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Sondage entre 5 films</h3>
+          <p class="project-place">Conservatoire National des Arts et Métiers (Cnam)</p>
+          <ul>
+            <li>Saisie et contrôle des choix de l'utilisateur.</li>
+            <li>Stockage des votes dans un tableau et affichage du classement.</li>
+          </ul>
+          <div class="tags">
+            <span>C</span><span>Tableaux</span><span>Entrées/sorties</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Meh-it/projets-c/tree/main/01-sondage-films" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Programmation C</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Morpion à deux joueurs</h3>
+          <p class="project-place">Conservatoire National des Arts et Métiers (Cnam)</p>
+          <ul>
+            <li>Affichage de la grille et alternance des joueurs.</li>
+            <li>Détection de la victoire et du match nul.</li>
+          </ul>
+          <div class="tags">
+            <span>C</span><span>Jeu</span><span>Logique</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Meh-it/projets-c/tree/main/02-morpion" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Programmation C</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Calculatrice</h3>
+          <p class="project-place">Conservatoire National des Arts et Métiers (Cnam)</p>
+          <ul>
+            <li>Lecture de deux nombres et de l'opérateur.</li>
+            <li>Refus de la division par zéro et message pour une opération inconnue.</li>
+          </ul>
+          <div class="tags">
+            <span>C</span><span>Fonctions</span><span>Gestion d'erreurs</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Meh-it/projets-c/tree/main/03-calculatrice" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Programmation C</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Devine le mot de passe (8 tentatives)</h3>
+          <p class="project-place">Conservatoire National des Arts et Métiers (Cnam)</p>
+          <ul>
+            <li>Code de 8 chiffres à retrouver : deux tableaux (code secret et tentatives), saisies contrôlées.</li>
+            <li>Au plus 8 propositions valides, état des cases affiché après chaque tour.</li>
+          </ul>
+          <div class="tags">
+            <span>C</span><span>Tableaux</span><span>Boucles</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Meh-it/projets-c/tree/main/04-devine-mot-de-passe" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Programmation C</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Déchiffreur de mot de passe</h3>
+          <p class="project-place">Conservatoire National des Arts et Métiers (Cnam)</p>
+          <ul>
+            <li>Décodage d'un message de 100 valeurs à l'aide d'un tableau de correspondance.</li>
+            <li>Le texte est reconstitué par le programme, sans être écrit dans le code.</li>
+          </ul>
+          <div class="tags">
+            <span>C</span><span>Tableaux</span><span>Chaînes</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Meh-it/projets-c/tree/main/05-dechiffreur-mot-de-passe" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Programmation C</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Testeur de fiabilité de mot de passe</h3>
+          <p class="project-place">Conservatoire National des Arts et Métiers (Cnam)</p>
+          <ul>
+            <li>Lecture d'un fichier de 100 mots de passe fictifs et calcul d'un score de vulnérabilité (deux règles).</li>
+            <li>Statistiques finales par catégorie.</li>
+          </ul>
+          <div class="tags">
+            <span>C</span><span>Fichiers</span><span>Chaînes</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Meh-it/projets-c/tree/main/06-testeur-fiabilite-mot-de-passe" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Programmation C</span>
+            <span class="project-year badge-encours">En cours</span>
+          </div>
+          <h3>Blackjack</h3>
+          <p class="project-place">Conservatoire National des Arts et Métiers (Cnam)</p>
+          <ul>
+            <li>Jeu de blackjack en console : paquet de cartes, tirage aléatoire et calcul des points.</li>
+            <li>Projet en cours de développement.</li>
+          </ul>
+          <div class="tags">
+            <span>C</span><span>Jeu</span><span>Aléatoire</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Meh-it/projets-c" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="projects-subtitle">Autres projets</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Web</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Site web d'histoire</h3>
+          <p class="project-place">Devoir universitaire</p>
+          <ul>
+            <li>Conception d'un site multi-pages en HTML5 et CSS3 sur un sujet d'histoire.</li>
+            <li>Mise en page responsive et mise en ligne sur un hébergement web.</li>
+          </ul>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>Hébergement web</span>
+          </div>
+          <div class="project-links">
+            <a href="https://mehdich.wuaze.com" target="_blank" rel="noopener" class="btn-code">&#128279; Voir le site</a>
+            <a href="https://github.com/Meh-it/site-histoire" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Systèmes Linux</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Administration de systèmes Linux &amp; Shell</h3>
+          <p class="project-place">Université Sorbonne Paris Nord</p>
+          <ul>
+            <li>Navigation et gestion de l'arborescence en ligne de commande (Bash).</li>
+            <li>Administration des utilisateurs, groupes et permissions (chmod, chown).</li>
+            <li>Scripts shell pour automatiser la maintenance courante.</li>
+          </ul>
+          <div class="tags">
+            <span>Linux</span><span>Bash</span><span>Administration</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Web &amp; Infrastructure</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3>Portfolio Web (HTML/CSS)</h3>
+          <p class="project-place">Cnam de Paris &amp; GitHub Pages</p>
+          <ul>
+            <li>Développement et mise en ligne d'un portfolio statique en HTML5 et CSS3 sur GitHub Pages.</li>
+            <li>Versionnement du code avec Git / GitHub.</li>
+          </ul>
+          <div class="tags">
+            <span>HTML5 / CSS3</span><span>GitHub Pages</span><span>Git</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Meh-it/Portfolio-Mehdi" target="_blank" rel="noopener" class="btn-code">&lt;/&gt; Voir le code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parcours & Expérience -->
+  <section id="parcours" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Formation &amp; Expérience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">Sept. 2026 – Aujourd'hui</div>
+          <div class="timeline-content">
+            <h3>Diplôme de Spécialisation Professionnelle (BAC+1)</h3>
+            <h4>Conservatoire National des Arts et Métiers (Cnam) – Paris</h4>
+            <p>Filière <strong>Développement et exploitation de parcs informatiques</strong> : HTML/CSS, algorithmique en C, Java, bases de données et Cloud, cybersécurité, installation, maintenance et administration du poste de travail, bureautique, anglais.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Sept. 2025 – Juin 2026</div>
+          <div class="timeline-content">
+            <h3>Licence Informatique – Parcours aménagé (L0)</h3>
+            <h4>Université Sorbonne Paris Nord – Villetaneuse (93)</h4>
+            <p>Initiation à la programmation Python, algorithmique, architecture des ordinateurs et systèmes d'exploitation Linux.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2025</div>
+          <div class="timeline-content">
+            <h3>Baccalauréat Général</h3>
+            <h4>Spécialités Mathématiques et Physique-Chimie</h4>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2021 (3 jours)</div>
+          <div class="timeline-content">
+            <h3>Stage d'observation – Chef Technicien Systèmes</h3>
+            <h4>Aéroport de Monastir – Tunisie</h4>
+            <p>Observation de la gestion d'infrastructures réseaux et systèmes critiques, maintenance du matériel informatique et support technique aux utilisateurs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-box">
+        <h2>Un stage en support informatique à pourvoir ?</h2>
+        <p>
+          Je suis disponible pour un <strong>stage conventionné de 2 mois du 1er mars au 23 avril 2027 (modulable)</strong> en Île-de-France. N'hésitez pas à me contacter par e-mail ou téléphone !
+        </p>
+        <div class="contact-details">
+          <a href="mailto:mehdi.chargui07@gmail.com" class="contact-item">
+            <span>✉️</span> mehdi.chargui07@gmail.com
+          </a>
+          <a href="tel:+33768969933" class="contact-item">
+            <span>📱</span> 07 68 96 99 33
+          </a>
+          <a href="Chargui_Mehdi_CV.pdf" target="_blank" rel="noopener" class="contact-item">
+            <span>📄</span> Télécharger mon CV (PDF)
+          </a>
+          <a href="https://linkedin.com/in/mehdi-chargui-it" target="_blank" rel="noopener" class="contact-item">
+            <span>💼</span> linkedin.com/in/mehdi-chargui-it
+          </a>
+          <a href="https://github.com/Meh-it/Portfolio-Mehdi" target="_blank" rel="noopener" class="contact-item">
+            <span>💻</span> github.com/Meh-it/Portfolio-Mehdi
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026–2027 Mehdi CHARGUI — Bobigny (93) | Portfolio HTML/CSS hébergé sur GitHub Pages</p>
+    </div>
+  </footer>
+</body>
+</html>
